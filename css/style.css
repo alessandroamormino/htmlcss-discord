@@ -192,7 +192,7 @@ main section .chat-wrapper .chat-info p {
 }
 
 main .wave-1hkxOo {
-    margin-bottom: -5px;
+    display: block;
 }
 
 main #wave1{
