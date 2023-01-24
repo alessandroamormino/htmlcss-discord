@@ -131,7 +131,6 @@ header .info-inner .btn-secondary {
 
 main section .chat-wrapper {
     height: 600px;
-
     /* flex */
     display: flex;
 }
@@ -143,13 +142,18 @@ main section .chat-wrapper .chat-img {
     flex-grow: 1;
 }
 
-.chat-img #img1 {
-    padding: 6em 0;
-}
-
 main section .chat-wrapper .chat-info {
     flex-grow: 5;
     padding: 7em 11em 0 1em;
+}
+
+main section:nth-of-type(even){
+    background-color: #F6F6F6;
+}
+
+main section:nth-of-type(even) .chat-wrapper .chat-info{
+    flex-grow: 5;
+    padding: 7em 2em 0 10em;
 }
 
 main section .chat-wrapper .chat-info h2 {
@@ -162,7 +166,21 @@ main section .chat-wrapper .chat-info p {
     line-height: 1.5em;
 }
 
-section .wave-1hkxOo {
+main .wave-1hkxOo {
+    margin-bottom: -5px;
+}
+
+main #wave1{
+    fill: #F6F6F6;
+}
+
+main #wave2{
+    fill: #F6F6F6;
+    background-color: #FFFFFF;
+    transform: scale(1, -1);
+}
+
+main #wave3{
     fill: #F6F6F6;
 }
 
