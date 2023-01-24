@@ -130,9 +130,7 @@ header .info-inner .btn-secondary {
 /* Main */
 
 main section .chat-wrapper {
-    /* background-color: #ffff0020; */
-    height: 700px;
-    /* debug */
+    height: 600px;
 
     /* flex */
     display: flex;
@@ -146,7 +144,7 @@ main section .chat-wrapper .chat-img {
 }
 
 .chat-img #img1 {
-    padding-bottom: 6em;
+    padding: 6em 0;
 }
 
 main section .chat-wrapper .chat-info {
@@ -162,6 +160,10 @@ main section .chat-wrapper .chat-info h2 {
 main section .chat-wrapper .chat-info p {
     padding-top: 2em;
     line-height: 1.5em;
+}
+
+section .wave-1hkxOo {
+    fill: #F6F6F6;
 }
 
 main section .video-wrapper {
