@@ -21,6 +21,10 @@ body{
     color: #ffffff;
 }
 
+.lightpurple-text{
+    color: #7289DA;
+}
+
 /* Nav */
 
 nav{
@@ -228,14 +232,12 @@ main #btn-download {
     padding: 10px 18px;
 }
 
-
-
 /* /Main */
 
 /* Footer */
 
 footer{
-    background-color: #23272A20;
+    background-color: #23272A;
 }
 
 footer .footer-wrapper{
@@ -256,11 +258,42 @@ footer .footer-wrapper .footer-links{
 
 .footer-links .footer-links-inner {
     display: flex;
+    padding-top: 5em;
+}
+
+.footer-links .footer-links-inner .social .lang-container{
+    padding: 1em 0;
+}
+
+.footer-links .footer-links-inner .social img{
+    width: 1.3em;
+}
+
+.footer-links .footer-links-inner .social h3{
+    font-size: 1.7em;
+}
+
+.footer-links .footer-links-inner .social .lang{
+    font-size: 0.8em;
 }
 
 .footer-links .footer-links-inner .social{
-    width: 300px;
-    background-color: #0015d030;
+    color: #ffffff;
+}
+
+.social .social-links > a{
+    padding-right: 1em;
+}
+
+
+.social .social-links svg{
+    width: 1.1em;
+    fill: #ffffff;
+}
+
+.social .social-links #yt{
+    width: 1.3em;
+    fill: #ffffff;
 }
 
 .footer-links .footer-links-inner .page-links{
