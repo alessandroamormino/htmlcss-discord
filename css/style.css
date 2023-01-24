@@ -191,7 +191,7 @@ main #wave3{
 }
 
 main section .video-wrapper {
-    width: 850px;
+    max-width: 1100px;
 
     /* flex */
     display: flex;
@@ -200,6 +200,7 @@ main section .video-wrapper {
 
 main section .video-wrapper .video-info{
     text-align: center;
+    padding: 0 5em;
 }
 
 main section .video-wrapper .video-info h2{
