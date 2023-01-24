@@ -7,8 +7,7 @@
 }
 
 header{
-    height: 580px;
-    /* debug */
+    min-height: 600px;
 }
 
 .btn{
@@ -67,14 +66,12 @@ nav .nav-inner{
 /* /Nav */
 
 header .info-wrapper{
-    height: 500px;
-    background-color: #255EE920;
+    min-height: 500px;
     /* debug */
 
-    /* qui ci andrà l'immagine di sfondo */
-    /* background-image: url();
+    background-image: url('../img/jumbo.png');
     background-size: cover;
-    background-position: center; */
+    background-position: center;
 
     /* flex */
     display: flex;
