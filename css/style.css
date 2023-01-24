@@ -95,7 +95,9 @@ header .info-inner{
     text-align: center;
 }
 
-header .info-inner > h1,p{
+header .info-wrapper .info-inner > h1,
+header .info-wrapper .info-inner > p
+{
     color: #ffffff;
 }
 
@@ -137,19 +139,29 @@ main section .chat-wrapper {
 }
 
 main section .chat-wrapper .chat-img {
-    background-color: #ffa50020;
-    /* width: 300px; */
-    /* debug */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
 
-    flex-grow: 3;
+.chat-img #img1 {
+    padding-bottom: 6em;
 }
 
 main section .chat-wrapper .chat-info {
-    background-color: #ff450020;
-    /* width: 300px; */
-    /* debug */
+    flex-grow: 5;
+    padding: 7em 11em 0 1em;
+}
 
-    flex-grow: 2;
+main section .chat-wrapper .chat-info h2 {
+    font-size: 40px;
+    line-height: 1.1em;
+}
+
+main section .chat-wrapper .chat-info p {
+    padding-top: 2em;
+    line-height: 1.5em;
 }
 
 main section .video-wrapper {
