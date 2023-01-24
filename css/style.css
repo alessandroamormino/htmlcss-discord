@@ -18,6 +18,7 @@ body{
 
 .lightpurple{
     background-color: #7289DA;
+    color: #ffffff;
 }
 
 /* Nav */
@@ -185,9 +186,7 @@ main #wave3{
 }
 
 main section .video-wrapper {
-    /* background-color: #ee82ee20; */
-    height: 1000px;
-    /* debug */
+    width: 850px;
 
     /* flex */
     display: flex;
@@ -195,22 +194,42 @@ main section .video-wrapper {
 }
 
 main section .video-wrapper .video-info{
-    background-color: #d30eed20;
-    height: 300px;
-    /* debug */
+    text-align: center;
 }
 
-main section .video-wrapper .video-img{
-    background-color: #5d00b420;
-    height: 700px;
-    /* debug */
+main section .video-wrapper .video-info h2{
+    font-size: 40px;
+    padding-top: 2em;
+    padding-bottom: 0.6em;
 }
 
-main section .download{
-    background-color: #07f16520;
-    height: 300px;
-    /* debug */
+main section:last-of-type{
+    background-color: #F6F6F6;
 }
+
+main section .download{ 
+    height: 300px;
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 2em;
+
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+
+}
+
+main #btn-download {
+    font-size: 1em;
+    padding: 10px 18px;
+}
+
+
+
 /* /Main */
 
 /* Footer */
