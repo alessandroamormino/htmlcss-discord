@@ -1,0 +1,231 @@
+/* Header */
+
+.centered{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: 580px;
+    /* debug */
+}
+
+.-btn{
+    /* spengo la classe con il '-' per non farlo visualizzare nel layout */
+    border-radius: 40px;
+    padding: 7px 16px;
+}
+
+.-lightpurple{
+    /* spengo la classe con il '-' per non farlo visualizzare nel layout */
+    background-color: #7289DA;
+}
+
+/* Nav */
+
+nav{
+    /* imposto al 40% per debud dovrà essere al 100% */
+    background-color: #255EE940;
+    /* debug */
+}
+
+nav .nav-inner{
+    background-color: #ff000020;
+    height: 80px;
+    /* debug */
+
+    /* flex */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#logo{
+    background-color: #00800060;
+    width: 100px;
+    height: 80px;
+    /* debug */
+}
+
+#links{
+    /* flex */
+    display: flex;
+    align-items: stretch;
+}
+
+#links ul {
+    list-style-type: none;
+
+    /* flex */
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 30px;
+}
+
+#links ul li {
+    width: 60px;
+    height: 30px;
+    background-color: #00800060;
+    /* debug */
+
+}
+
+
+#login{
+    background-color: #00800060;
+    width: 100px;
+    height: 80px;
+    /* debug */
+}
+/* /Nav */
+
+header .info-wrapper{
+    height: 500px;
+    background-color: #255EE920;
+    /* debug */
+
+    /* qui ci andrà l'immagine di sfondo */
+    /* background-image: url();
+    background-size: cover;
+    background-position: center; */
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .info-inner{
+    background-color: #255EE920;
+    width: 800px;
+    height: 300px;
+    /* debug */
+}
+/* /Header */
+
+/* Main */
+
+main section .chat-wrapper {
+    /* background-color: #ffff0020; */
+    height: 700px;
+    /* debug */
+
+    /* flex */
+    display: flex;
+}
+
+main section .chat-wrapper .chat-img {
+    background-color: #ffa50020;
+    /* width: 300px; */
+    /* debug */
+
+    flex-grow: 3;
+}
+
+main section .chat-wrapper .chat-info {
+    background-color: #ff450020;
+    /* width: 300px; */
+    /* debug */
+
+    flex-grow: 2;
+}
+
+main section .video-wrapper {
+    /* background-color: #ee82ee20; */
+    height: 1000px;
+    /* debug */
+
+    /* flex */
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main section .video-wrapper .video-info{
+    background-color: #d30eed20;
+    height: 300px;
+    /* debug */
+}
+
+main section .video-wrapper .video-img{
+    background-color: #5d00b420;
+    height: 700px;
+    /* debug */
+}
+
+main section .download{
+    background-color: #07f16520;
+    height: 300px;
+    /* debug */
+}
+/* /Main */
+
+/* Footer */
+
+footer{
+    background-color: #23272A20;
+}
+
+footer .footer-wrapper{
+    background-color: #23272A20;
+    height: 650px;
+    /* debug */
+}
+
+footer .footer-wrapper .footer-links{
+    height: 550px;
+    /* debug */
+
+    /* flex */
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.footer-links .footer-links-inner {
+    display: flex;
+}
+
+.footer-links .footer-links-inner .social{
+    width: 300px;
+    background-color: #0015d030;
+}
+
+.footer-links .footer-links-inner .page-links{
+    width: 900px;
+    background-color: #80808020;
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links .footer-links-inner .page-links ul{
+    background-color: #0015d030;
+    width: 100px;
+}
+
+footer .footer-wrapper .footer-sign-up{
+    height: 100px;
+    /* debug */
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sign-up .footer-logo{
+    background-color: #19520020;
+    width: 100px;
+    height: 50px;
+}
+
+.footer-sign-up .footer-btn{
+    background-color: #19520020;
+    height: 50px;
+    width: 100px;
+}
+
+/* /Footer */
