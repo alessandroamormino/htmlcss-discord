@@ -59,6 +59,18 @@ nav .nav-inner{
     color: #ffffff;
 }
 
+#links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#links ul li a:visited,
+#links ul li a:focus
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 #login{
     align-self: center;
@@ -76,7 +88,6 @@ header .info-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 header .info-inner{
