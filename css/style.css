@@ -16,6 +16,21 @@ body{
     border: none;
 }
 
+.btn:not(.lightpurple):hover{
+    color: #7289DA;    
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn.btn-secondary:hover{
+    color: #ffffff;
+    background-color: rgb(62, 59, 59);    
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn.lightpurple:hover{   
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
 .lightpurple{
     background-color: #7289DA;
     color: #ffffff;
