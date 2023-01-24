@@ -23,6 +23,7 @@ body{
 
 .lightpurple-text{
     color: #7289DA;
+    font-size: 0.8em;
 }
 
 /* Nav */
@@ -240,16 +241,7 @@ footer{
     background-color: #23272A;
 }
 
-footer .footer-wrapper{
-    background-color: #23272A20;
-    height: 650px;
-    /* debug */
-}
-
 footer .footer-wrapper .footer-links{
-    height: 550px;
-    /* debug */
-
     /* flex */
     display: flex;
     align-items: stretch;
@@ -298,7 +290,6 @@ footer .footer-wrapper .footer-links{
 
 .footer-links .footer-links-inner .page-links{
     width: 900px;
-    background-color: #80808020;
 
     /* flex */
     display: flex;
@@ -306,27 +297,38 @@ footer .footer-wrapper .footer-links{
 }
 
 .footer-links .footer-links-inner .page-links ul{
-    background-color: #0015d030;
-    width: 100px;
+    /* width: 100px; */
+    list-style-type: none;
+}
+
+.footer-links .footer-links-inner .page-links ul li{
+    color: #ffffff;
+    padding: 0.7em 0;
+    font-size: 0.8em;
+}
+
+.page-links ul li a,
+.page-links ul li a:visited, 
+.page-links ul li a:focus{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .footer-wrapper hr {
+    border: 1px solid #4F5D8C;
 }
 
 footer .footer-wrapper .footer-sign-up{
     height: 100px;
-    /* debug */
 
     /* flex */
     display: flex;
     justify-content: space-between;
-}
 
-.footer-sign-up .footer-logo{
-    background-color: #19520020;
-    width: 100px;
-    height: 50px;
+    padding-top: 1em;
 }
 
 .footer-sign-up .footer-btn{
-    background-color: #19520020;
     height: 50px;
     width: 100px;
 }
