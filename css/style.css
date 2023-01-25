@@ -89,6 +89,11 @@ nav .nav-inner{
     text-decoration: none;
 }
 
+/* bonus links */
+#links ul li a:hover{
+    text-decoration: underline;
+}
+
 #links ul li a:visited,
 #links ul li a:focus
 {
